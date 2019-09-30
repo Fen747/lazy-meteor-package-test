@@ -9,3 +9,4 @@ Branches :
 -   `master` => nothing is imported
 -   `with-package` => the package is added as a dependency to `meteor/packages` but not imported
 -   `imported` => the package is explicitely imported in both `client` and `server`
+-   `addFiles` => package.js use old api, package added to meteor, no explicit import of the package in the code (it eagerly loads anyway)

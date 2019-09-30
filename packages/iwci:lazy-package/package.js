@@ -7,6 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
 	api.use('ecmascript')
-	api.mainModule('lazy-package.js', 'client', { lazy: true })
-	api.mainModule('lazy-package.js', 'server', { lazy: true })
+	api.addFiles('lazy-package.js', ['server', 'client'])
+	// api.mainModule('lazy-package.js', 'client', { lazy: true })
+	// api.mainModule('lazy-package.js', 'server', { lazy: true })
 })
