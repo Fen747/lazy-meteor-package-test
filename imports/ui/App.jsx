@@ -1,7 +1,7 @@
 import React from 'react'
-// import { test } from 'meteor/iwci:lazy-package'
+import { test } from 'meteor/iwci:lazy-package'
 
-// console.log("Testing the 'lazy' import => ", test)
+console.log("Testing the 'lazy' import => ", test)
 
 const App = () => (
 	<div>
